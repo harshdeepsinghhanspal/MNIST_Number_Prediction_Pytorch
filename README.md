@@ -36,7 +36,7 @@ cd mnist-cnn-pytorch
 pip install -r requirements.txt
 ```
 ---
-##🧱 Model Architecture Explanation:
+## 🧱 Model Architecture Explanation:
 
 Here's a look at the Convolutional Neural Network (CNN) used in this project:
 ```
@@ -75,7 +75,8 @@ The model is trained for 10 epochs using:
 📈 Batch size of 32
 
 ---
-##🔮 Inference
+## 🔮 Inference
+
 You can test your own handwritten digit images using the function:
 
 predict_image('path_to_image.jpg')
