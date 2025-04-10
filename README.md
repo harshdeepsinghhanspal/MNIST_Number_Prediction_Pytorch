@@ -17,7 +17,7 @@ pillow
 ```
 pip install torch torchvision numpy pillow
 ```
-
+---
 ## 🚀 Features
 
 - 📦 Train a CNN model on the MNIST dataset
@@ -35,7 +35,7 @@ git clone https://github.com/your-username/mnist-cnn-pytorch.git
 cd mnist-cnn-pytorch
 pip install -r requirements.txt
 ```
-
+---
 🧱 Model Architecture Explanation:
 Here's a look at the Convolutional Neural Network (CNN) used in this project:
 ```
@@ -63,6 +63,7 @@ Linear: Final layer mapping to the 10 digit classes (0–9).
 
 28 → 26 → 24 → 22
 
+---
 🏃‍♂️ Training
 The model is trained for 10 epochs using:
 
@@ -72,7 +73,7 @@ The model is trained for 10 epochs using:
 
 📈 Batch size of 32
 
-
+---
 🔮 Inference
 You can test your own handwritten digit images using the function:
 
@@ -84,3 +85,4 @@ Grayscale (1 channel)
 28x28 pixels 🖼️
 
 White digit on a black background (like MNIST)
+---
