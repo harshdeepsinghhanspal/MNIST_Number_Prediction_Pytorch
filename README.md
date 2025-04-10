@@ -36,7 +36,8 @@ cd mnist-cnn-pytorch
 pip install -r requirements.txt
 ```
 ---
-🧱 Model Architecture Explanation:
+##🧱 Model Architecture Explanation:
+
 Here's a look at the Convolutional Neural Network (CNN) used in this project:
 ```
 self.network = nn.Sequential(
@@ -64,7 +65,7 @@ Linear: Final layer mapping to the 10 digit classes (0–9).
 28 → 26 → 24 → 22
 
 ---
-🏃‍♂️ Training
+## 🏃‍♂️ Training
 The model is trained for 10 epochs using:
 
 ✅ CrossEntropyLoss
@@ -74,7 +75,7 @@ The model is trained for 10 epochs using:
 📈 Batch size of 32
 
 ---
-🔮 Inference
+##🔮 Inference
 You can test your own handwritten digit images using the function:
 
 predict_image('path_to_image.jpg')
@@ -85,4 +86,5 @@ Grayscale (1 channel)
 28x28 pixels 🖼️
 
 White digit on a black background (like MNIST)
+
 ---
